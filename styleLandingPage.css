@@ -6,7 +6,11 @@ body,
 
 #intro{
     color:white;
-    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img (132).jpg")no-repeat center center fixed;
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img (132).jpg");/*no-repeat center center fixed;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-position: center;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
